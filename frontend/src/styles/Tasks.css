@@ -1,0 +1,21 @@
+/* Tasks.css */
+.task-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .task-card {
+    background: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .task-card:hover {
+    background: #e0e0e0;
+    cursor: pointer;
+  }
+  
